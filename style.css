@@ -445,6 +445,11 @@ address {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
     opacity: 1;
+    transition: opacity 250ms ease;
+}
+.backdrop:focus {
+    transition: opacity 250ms ease;
+    opacity: 1;
 }
 .backdrop.is-hidden {
     opacity: 0;
